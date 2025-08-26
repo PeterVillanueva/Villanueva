@@ -2422,18 +2422,6 @@ form textarea:required:valid {
     color: var(--t-medium);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .main {
     position: relative;
     height: auto;
@@ -2484,7 +2472,7 @@ form textarea:required:valid {
 
 @media only screen and (min-width: 1200px) {
     .headline {
-        padding: 0 6rem 0 3rem;
+        padding: 0 6rem 0 6rem;
     }
 }
 
@@ -2710,7 +2698,7 @@ form textarea:required:valid {
 
 
 .content {
-    position: relative;
+    position:relative;
     width: 100%;
     min-width: 360px;
     height: auto;
@@ -2718,25 +2706,25 @@ form textarea:required:valid {
 
 @media only screen and (min-width: 992px) {
     .content {
-        padding-left: 330px;
+        padding-right: 330px;
     }
 }
 
 @media only screen and (min-width: 1200px) {
     .content {
-        padding-left: 360px;
+        padding-right: 360px;
     }
 }
 
 @media only screen and (min-width: 1400px) {
     .content {
-        padding-left: 480px;
+        padding-right: 480px;
     }
 }
 
 @media only screen and (min-width: 1600px) {
     .content {
-        padding-left: 500px;
+        padding-right: 500px;
     }
 }
 
@@ -2781,28 +2769,28 @@ form textarea:required:valid {
 
 @media only screen and (min-width: 1200px) {
     .content__block {
-        padding: 0 6rem 0 3rem;
+        padding: 0 3rem 0 6rem;
     }
     .content__block.grid-block {
-        padding: 0 4.5rem 0 1.5rem;
+        padding: 0 1.5rem 0 4.5rem;
     }
 }
 
 @media only screen and (min-width: 1400px) {
     .content__block {
-        padding: 0 8rem 0 5rem;
+        padding: 0 5rem 0 8rem;
     }
     .content__block.grid-block {
-        padding: 0 5.5rem 0 2.5rem;
+        padding: 0 2.5rem 0 5.5rem;
     }
 }
 
 @media only screen and (min-width: 1600px) {
     .content__block {
-        padding: 0 10rem 0 5rem;
+        padding: 0 5rem 0 10rem;
     }
     .content__block.grid-block {
-        padding: 0 7.5rem 0 2.5rem;
+        padding: 0 2.5rem 0 7.5rem;
     }
 }
 
@@ -2950,8 +2938,8 @@ form textarea:required:valid {
 @media only screen and (min-width: 992px) {
     .header {
         top: 3rem;
-        left: auto;
-        right: 0;
+        left: 0;
+        right: auto;
         bottom: auto;
         -webkit-transform: translateX(0);
         -moz-transform: translateX(0);
@@ -2969,7 +2957,7 @@ form textarea:required:valid {
 
 @media only screen and (min-width: 1200px) {
     .header {
-        padding: 0 6rem 0 3rem;
+        padding: 0 3rem 0 6rem;
         width: -moz-calc(100% - 360px);
         width: calc(100% - 360px);
     }
@@ -2980,7 +2968,7 @@ form textarea:required:valid {
         top: 5rem;
         width: -moz-calc(100% - 480px);
         width: calc(100% - 480px);
-        padding: 0 8rem 0 5rem;
+        padding: 0 5rem 0 8rem;
     }
 }
 
@@ -2989,16 +2977,16 @@ form textarea:required:valid {
         width: -moz-calc(100% - 500px);
         width: calc(100% - 500px);
         height: 6rem;
-        padding: 0 10rem 0 5rem;
+        padding: 0 5rem 0 10rem;
     }
 }
 
 @media only screen and (min-width: 992px) {
     .header__controls .btn {
-        margin-right: 1rem;
+        margin-left: 1rem;
     }
-    .header__controls .btn:last-child {
-        margin-right: 0;
+    .header__controls .btn:first-child {
+        margin-left: 0;
     }
 }
 
@@ -3182,10 +3170,10 @@ form textarea:required:valid {
     padding-top: 1.5rem;
     padding-bottom: 6rem;
     z-index: 9;
-    -webkit-transform-origin: top left;
-    -moz-transform-origin: top left;
-    -ms-transform-origin: top left;
-    transform-origin: top left;
+    -webkit-transform-origin: top right;
+    -moz-transform-origin: top right;
+    -ms-transform-origin: top right;
+    transform-origin: top right;
 }
 
 @media only screen and (min-width: 768px) {
@@ -3201,7 +3189,7 @@ form textarea:required:valid {
     .avatar {
         position: fixed;
         top: 3rem;
-        left: 3rem;
+        right: 3rem;
         width: 300px;
         height: -moz-calc(100% - 6rem);
         height: calc(100% - 6rem);
@@ -3213,14 +3201,14 @@ form textarea:required:valid {
 
 @media only screen and (min-width: 1200px) {
     .avatar {
-        left: 6rem;
+        right: 6rem;
     }
 }
 
 @media only screen and (min-width: 1400px) {
     .avatar {
         top: 5rem;
-        left: 8rem;
+        right: 8rem;
         width: 400px;
         height: -moz-calc(100% - 10rem);
         height: calc(100% - 10rem);
@@ -3229,7 +3217,7 @@ form textarea:required:valid {
 
 @media only screen and (min-width: 1600px) {
     .avatar {
-        left: 10rem;
+        right: 10rem;
     }
 }
 
@@ -3343,6 +3331,19 @@ form textarea:required:valid {
 .avatar__socials {
     margin-bottom: 1rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 .menu__item {
     display: -webkit-inline-box;
     display: -moz-inline-box;
