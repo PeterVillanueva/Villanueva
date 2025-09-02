@@ -4524,7 +4524,7 @@ form textarea:required:valid {
 .mxd-slider-btn-square-next {
     left: 6rem;
 }
-
+    
 @media only screen and (min-width: 1600px) {
     .mxd-slider-btn-square-next {
         left: 7rem;

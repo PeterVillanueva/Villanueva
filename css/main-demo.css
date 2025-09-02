@@ -373,8 +373,8 @@
   --glass-stroke-top--light: rgba(255,255,255,0.4);
   --glass-stroke-bottom--light: rgba(255,255,255,0.36);
   --glass-filter--light: drop-shadow(0 0 55px rgb(74 38 188 / 0.25));
-  --bg-image-one--light: url(../img/demo/screens/svg-light.webp);
-  --bg-image-two--light: url(../img/demo/screens/image-light.webp);
+  --bg-image-one--light: url(../img/demo/screens/peter-gradient-light.webp);
+  --bg-image-two--light: url(../img/demo/screens/scyve-gradient-light.webp);
   --bg-image-three--light: url(../img/demo/screens/solid-color-light.webp);
   --bg-image-four--light: url(../img/demo/screens/gradient-light.webp);
   
@@ -382,8 +382,8 @@
   --glass-stroke-top--dark: rgba(255,255,255,0.08);
   --glass-stroke-bottom--dark: rgba(255,255,255,0.05);
   --glass-filter--dark: drop-shadow(0 0 55px rgb(137 102 221 / 0.15));
-  --bg-image-one--dark: url(../img/demo/screens/svg-dark.webp);
-  --bg-image-two--dark: url(../img/demo/screens/image-dark.webp);
+  --bg-image-one--dark: url(../img/demo/screens/peter-gradient-dark.webp);
+  --bg-image-two--dark: url(../img/demo/screens/scyve-gradient-dark.webp);
   --bg-image-three--dark: url(../img/demo/screens/solid-color-dark.webp);
   --bg-image-four--dark: url(../img/demo/screens/gradient-dark.webp);
 }
@@ -901,6 +901,7 @@ a {
 .btn-square {
   width: 5rem;
   height: 5rem;
+  
   -moz-border-radius: var(--_radius-m);
        border-radius: var(--_radius-m);
 }
@@ -917,6 +918,7 @@ a {
   .btn-square {
     width: 6rem;
     height: 6rem;
+    
   }
   .btn-square i {
     font-size: 2.2rem;
@@ -1657,12 +1659,12 @@ a {
 .image__container.image-02 {
   background-image: var(--bg-image-two);
 }
-.image__container.image-03 {
+/* .image__container.image-03 {
   background-image: var(--bg-image-three);
 }
 .image__container.image-04 {
   background-image: var(--bg-image-four);
-}
+} */
 @media only screen and (min-width: 992px) {
   .image__container {
     -moz-border-radius: 2.6rem;
